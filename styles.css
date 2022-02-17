@@ -173,8 +173,7 @@ table{
     height: auto;
     padding: 5%;
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     border-top: 1px solid rgb(180, 180, 180);
 }
@@ -189,6 +188,7 @@ table{
 .text{
     padding: 15px 20px 15px 20px;
     font-size: 90%;
+    width: 15rem;
  
 }
 .guinText{
