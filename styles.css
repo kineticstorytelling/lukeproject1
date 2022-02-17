@@ -128,7 +128,11 @@ table{
 
 
 /* St Patrick's Cathedral */
-
+.stPatTitle1{
+    background-image: url(/images/photos/kalisa-veer-YbB8BH2ogZ0-unsplash.jpg);
+    background-size: 50vw;
+    height: 30vh;
+}
 .stPatTitle{
     text-align: center;
     padding: 2%;
@@ -166,8 +170,11 @@ table{
     padding: 2%;
 }
 .guinInfo{
+    height: auto;
     padding: 5%;
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     justify-content: center;
     border-top: 1px solid rgb(180, 180, 180);
 }
@@ -178,12 +185,11 @@ table{
 }
 .guinInfo .content1{
     border: 2px solid rgb(63, 42, 3);
-    margin: 0 1% 0 0;
-    padding: 0 0 -1% 0;
 }
 .text{
     padding: 15px 20px 15px 20px;
     font-size: 90%;
+ 
 }
 .guinText{
     border-top: 1px solid rgb(163, 163, 163);
